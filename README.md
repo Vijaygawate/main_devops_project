@@ -105,5 +105,7 @@ build--
     #sudo docker rm -f $(sudo docker ps -a -q)
     #sudo docker build /home/ubuntu/jenkins/workspace/Prod_job/ -t website
     #sudo docker run -it -p 80:80 -d website (we are running it on port 80 coz we finally deployed it on prod server)
+
+go to build-website job and add post build action --add here prod_job
 Check it on brower 
 <public_ip of Prod_server>:80
