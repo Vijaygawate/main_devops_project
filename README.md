@@ -111,5 +111,10 @@ go to build-website job and add post build action --add here prod_job
 on prod server run random container 
 #sudo docker run -it -d ubuntu
 so that our pipeline works (coz we mention any privious container running should delete first)
+
+imp: 
+made some changes in index.html file on jenkins server commit it and push it to the origin 
+Result: it will run all job automatically and your website is deployed on Prod_server 
+
 Check it on brower 
 <public_ip of Prod_server>:80
