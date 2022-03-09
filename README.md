@@ -107,5 +107,9 @@ build--
     #sudo docker run -it -p 80:80 -d website (we are running it on port 80 coz we finally deployed it on prod server)
 
 go to build-website job and add post build action --add here prod_job
+
+on prod server run random container 
+#sudo docker run -it -d ubuntu
+so that our pipeline works (coz we mention any privious container running should delete first)
 Check it on brower 
 <public_ip of Prod_server>:80
