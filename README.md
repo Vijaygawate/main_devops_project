@@ -1,3 +1,6 @@
+https://youtu.be/7lazzvm1ljo
+
+
 # main_devops_project
 **Step1**
 Launch 3 ubuntu instances 
