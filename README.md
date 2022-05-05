@@ -56,7 +56,7 @@ branch - master
 save the job 
 
 **Step5**
-install docker onto Staging_server and Prod_server
+install docker and java onto Staging_server and Prod_server
 #apt install docker.io
 
 **Step6**
