@@ -61,6 +61,11 @@ install docker and java onto Staging_server and Prod_server
 
 **Step6**
 Creation of docker file - so that it will copy index file from jenkins server to staging into docker container 
+
+===============Dockerfile content=======
+FROM hshar/webapp
+ADD . /var/www/html
+=======================================
 ssh into jenkins server 
 #sudo su 
 #cd main_devops_project
