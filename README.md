@@ -12,7 +12,7 @@ name it as below
 Install jenkins setup on jenkins server 
 
 **Step2**
-On staging and Prod server do below steps 
+On Jenkins, staging and Prod server do below steps 
 #sudo su
 #passwd root
 #Vijay22@
